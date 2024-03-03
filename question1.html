@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./questions.js" defer></script>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <title>問題1 | Quiz!</title>
 </head>
 <body>
@@ -19,15 +19,15 @@
             </p>
 
             <h3>選択肢</h3>
-            <ol class="answers">
-                <li>HyperTextMakingLanguage</li>
-                <li>HyperTextMarkupLanguage</li>
-                <li>HonmaniTensaitekinaMajidesugoiLanguage</li>
-                <li>そもそも略称ではない</li>
+            <ol class="answers" data-id="question1">
+                <li data-answer="1">HyperTextMakingLanguage</li>
+                <li data-answer="2">HyperTextMarkupLanguage</li>
+                <li data-answer="3">HonmaniTensaitekinaMajidesugoiLanguage</li>
+                <li data-answer="4">そもそも略称ではない</li>
             </ol>
         </div>
 
-        <div id="section-correct-answer" class="section">
+        <div id="section-correct-answer" class="section-answer">
             <h2>答え</h2>
             <p>
                 <span id="correct-answer">B. HyperTextMarkupLanguage</span><br />

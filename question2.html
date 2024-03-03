@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="./questions.js" defer></script>
     <title>問題2 | Quiz!</title>
 </head>
 <body>
@@ -19,15 +20,15 @@
 
 
             <h3>選択肢</h3>
-            <ol class="answers">
-                <li>1986/02/21</li>
-                <li>1989/04/21</li>
-                <li>1990/11/21</li>
-                <li>2004/11/21</li>
+            <ol class="answers" data-id="question2">
+                <li data-answe="1">1986/02/21</li>
+                <li data-answe="2">1989/04/21</li>
+                <li data-answe="3">1990/11/21</li>
+                <li data-answe="4">2004/11/21</li>
             </ol>
         </div>
 
-        <div id="section-correct-answer" class="section">
+        <div id="section-correct-answer" class="section-answer">
             <h2>答え</h2>
             <p>
                 <span id="correct-answer">A. 1986/02/21</span>
